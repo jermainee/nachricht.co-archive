@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*)
+RewriteRule ^.*$ https://%1/$1 [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule ^([^/]*)\.html$ /?a=$1 [L]
+RewriteRule ^([^-]*)-([^-]*)$ /redirect.php?id=$1&pass=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /?a=$1&id=$2&pass=$3 [L]

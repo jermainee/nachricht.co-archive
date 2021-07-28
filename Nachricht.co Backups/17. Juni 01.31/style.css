@@ -1,0 +1,52 @@
+body{background: #222 url(img/bg.png) fixed; color: #ddd; margin: 0px; padding: 0px; top: 0px !important; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+#wrapper{background: transparent; max-width: 700px; text-align: center; margin: 40px auto 0px; padding: 0px 10px 0px 10px;}
+
+#header{background: rgba(0, 0, 0, 0.3); color: #fff; padding: 11px 15px 11px 15px;}
+#header h1{margin: 0px; font-size: 17px;}
+#header a{text-decoration: none; color: #fff;}
+#header a:hover{}
+#header a:visited{}
+
+#google_translate_element{
+  margin:0 0 0 10px;
+}
+
+div.goog-te-gadget-simple{background-color: transparent; border: none; padding-top: 4px; font-size: 13px; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;}
+.goog-te-gadget-icon{display: none;}
+.goog-te-banner-frame.skiptranslate {display: none !important;} 
+a.goog-te-menu-value span{color: #fff;}
+a.goog-te-menu-value:hover{text-decoration: none; text-shadow: none;}
+
+#slogan{background: transparent; color: #b0b0b0; text-align: center; font-size: 18px; margin-bottom: 40px;}
+#slogan h2{margin: 0px; padding: 0px;}
+
+#editor{}
+#edt{margin: 0px; padding: 0px;}
+.text{background: rgba(0,0,0,0.3); width: 100%; min-height: 150px; height: 50%; margin: 0px; padding: 15px; border: 0px; color: #ddd; font-size: 18px; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; border-radius: 5px 5px 0px 0px; resize: none; outline: none;}
+.button{background: rgba(0,0,0,0.6); width: 100%; margin: 0px; padding: 10px 0px 10px 0px; border: 0px; color: #ddd; font-size: 15px; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; border-radius: 0px 0px 5px 5px; -webkit-appearance: none;}
+.smileys{background: rgba(0,0,0,0.3); padding: 5px 10px 5px 10px;}
+.smiley{border: 0px; width: 22px; padding: 0px 2px 0px 2px;}
+
+#nachricht{background: rgba(0,0,0,0.3); min-height: 300px; height: 52%; margin: 0px; padding: 15px; border: 0px; color: #ddd; font-size: 18px; text-align: left; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; line-height: 30px; border-radius: 5px 5px 0px 0px;;}
+.link{background: rgba(255,255,255,0.6); width: 100%; color: #333; margin: 25px 0px 15px 0px; padding: 10px; font-size: 16px; border-radius: 5px; border: 0px; font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;}
+
+#content{background: rgba(0,0,0,0.3); text-align: left; margin: 0px; padding: 15px; color: #ddd; font-size: 18px;  border-radius: 5px; font-size: 15px;}
+#content h2{margin: 0px 0px 15px 0px;}
+#content h3{margin: 0px;}
+#content p{margin: 5px 0px 20px 20px;}
+
+#footer{margin: 15px 0px 20px 0px; padding: 0px; font-size: 12px; color: rgba(255,255,255,0.5);}
+#footer a{text-decoration: none; color: rgba(255,255,255,0.6);}
+#footer a:hover{color: #ddd;}
+#footer a:visited{}
+
+a{text-decoration: none; color: #fff;}
+a:hover{text-decoration: none; color: #fff;}
+a:visited{text-decoration: none; color: #fff;}
+
+.notification{margin: 0px; padding: 5px; text-align: center; font-size: 15px;}
+.error{background: rgba(255, 95, 95, 0.6); color: #fff; padding: 5px 10px 5px 10px; font-size: 16px; border-radius: 5px;}
+.shadow{-webkit-box-shadow: 0 4px 8px -6px black; -moz-box-shadow: 0 4px 8px -6px black; box-shadow: 0 4px 8px -6px black;}
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}

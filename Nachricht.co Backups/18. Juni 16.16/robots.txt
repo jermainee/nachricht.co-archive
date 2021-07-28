@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.GIF$
+Disallow: /*.JPG$
+Disallow: /*.PNG$
+Disallow: /contents/
+Disallow: /img/
+Disallow: /include/
+Disallow: /404.html
+Disallow: /write.html
+Disallow: /read.html
+Disallow: /new.html
+Allow: /
+
+User-Agent: Googlebot-Image
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /

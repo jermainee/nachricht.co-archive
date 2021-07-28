@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /*.GIF$
+Disallow: /*.JPG$
+Disallow: /*.PNG$
+Disallow: /*.SVG$
+Disallow: /b/
+Disallow: /css/
+Disallow: /img/
+Disallow: /n/
+Disallow: /redirect.php
+Allow: /
+Allow: /robots.txt
+
+User-Agent: Googlebot-Image
+Disallow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Facebot
+Disallow: /n/

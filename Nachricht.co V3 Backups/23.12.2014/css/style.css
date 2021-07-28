@@ -1,0 +1,117 @@
+* {margin: 0px; padding: 0px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+@media only screen and (min-device-width: 1201px){
+	.container{width: 1200px;}
+	section.nachricht form textarea.nachricht{width: 1136px; height: 320px;}
+	section.nachricht .noutput{min-height: 320px;}
+	section.nachricht .output-link input.link{width: 1136px;}
+	section.features article{width: 530px;}
+	h2.headline{font-size: 36px; margin: 40px 0px 40px 0px;}
+	section.bigbox img{width: 840px;}
+	section.side{width: 840px;}
+	aside.sidebar{width: 300px;}
+}
+
+@media only screen and
+(min-device-width: 800px) and
+(max-device-width: 1200px){
+	.container{width: 800px;}
+	section.nachricht form textarea.nachricht{width: 736px; height: 280px;}
+	section.nachricht .noutput{min-height: 280px;}
+	section.nachricht .output-link input.link{width: 736px;}
+	section.features article{width: 330px;}
+	h2.headline{font-size: 28px; margin: 30px 0px 30px 0px;}
+	section.bigbox img{width: 736px;}
+	section.side{width: 440px;}
+}
+
+@media only screen and
+(min-device-width: 320px) and
+(max-device-width: 799px){
+	.container{width: 320px;}
+	section.nachricht form textarea.nachricht{width: 256px;  height: 230px;}
+	section.nachricht .noutput{min-height: 230px;}
+	section.nachricht .output-link input.link{width: 256px;}
+	section.features article{width: ;}
+	h2.headline{font-size: 24px; margin: 20px 0px 20px 0px;}
+	section.bigbox img{width: 256px;}
+	nav a.navigation{visibility: hidden;}
+	footer .logo{display: none;}
+	section.side{width: 256px;}
+	aside.sidebar img{width: 256px;}
+}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+.container{margin: 0px auto;}
+.bcontainer{width: 95%; margin: 0px auto;}
+.conwinter{background: #645862 url('../img/bg/winter.png') no-repeat bottom; background-size: cover;}
+.conintro{background: #645862 url('../img/bg/banner.jpg') no-repeat center center fixed; background-size: cover;}
+.round{border-radius: 3px;}
+
+.notification{background: #84d3c9; font-size: 15px; padding: 10px; color: #fff; text-align: center; font-weight: 500;}
+.notification a{font-weight: 300;}
+
+a{text-decoration: none; color: #2790B0;}
+a:hover{color: #2790B0;}
+a:visited{}
+
+body{background: #eee; color: #333; font-size: 14px;}
+header.header{background: rgba(255,255,255,0); width: 100%; padding: 30px 0px 30px 0px;}
+header .logo{background-image: url('../img/logo/logo.png'); width: 184px; height: 25px; position: absolute;}
+header .logo h1{font-weight: bold; visibility: hidden;}
+header .logo h2{visibility: hidden;}
+
+nav{font-size: 15px; text-transform: uppercase; margin-top: 2px;}
+nav a.button{background: #97dad1; padding: 8px 13px 8px 13px; color: #fff; font-weight: 500; letter-spacing: 1px;}
+nav a.button:hover{background: #84d3c9;}
+nav a.navigation{color: #333; margin: 0px 20px 0px 0px;}
+
+section.nachricht{padding: 20px 0px 60px 0px;}
+section.nachricht form{background: rgba(255,255,255,0.4); padding: 20px; color: #fff;}
+section.nachricht form textarea.nachricht{background: transparent; color: #fff; margin-bottom: 10px; padding: 10px; font-size: 16px; border: 2px solid #fff; resize: none;}
+section.nachricht form ::-webkit-input-placeholder {rgba(255,255,255, 1); opacity: 1;}
+section.nachricht form ::-moz-placeholder {rgba(255,255,255, 1); opacity: 1;} /* firefox 19+ */
+section.nachricht form :-ms-input-placeholder {rgba(255,255,255, 1); opacity: 1;} /* ie */
+section.nachricht form input:-moz-placeholder {rgba(255,255,255, 1); opacity: 1;}
+section.nachricht .button{background: rgba(255,255,255, 1); color: #645862; width: 100%; padding: 10px; font-size: 14px; text-transform: uppercase; font-weight: 600; border: none;}
+
+section.nachricht .output{background: rgba(255,255,255,0.4); padding: 20px; color: #fff; font-size: 16px;}
+section.nachricht .noutput{border: 2px solid #fff; margin-bottom: 10px; padding: 10px;}
+
+a .inlink{color: #fff; text-decoration: underline;}
+
+section.nachricht .output-link{background: rgba(255,255,255,0.4); padding: 20px; color: #fff; font-size: 22px; text-align: center;}
+section.nachricht .output-link input.link{background: transparent; color: #fff; margin-top: 15px; padding: 10px; font-size: 16px; border: 2px solid #fff;}
+
+h2.headline{font-weight: 300; text-align: center;}
+
+section.features {background: rgba(255,255,255,0.6); margin: 20px 0px 0px 0px; padding: 10px 20px 10px 20px;}
+section.features article{background: #fff; margin: 10px 0px 10px 0px; padding: 20px 20px 20px 20px; text-align: center;}
+section.features img{width: 80px; height: 80px; padding: 20px;}
+section.features h3{font-size: 20px; color: #555; margin:15px 0px 20px 0px;}
+section.features p{font-size: 16px; color: #a0a0a0;}
+
+section.content{margin: 20px 0px 0px 0px;}
+section.content h2{font-size: 20px; color: #555; margin: 0px 0px 5px 0px;}
+section.content h3{font-size: 18px; color: #555; margin: 25px 0px 5px 0px;}
+section.content p{font-size: 16px; color: #a0a0a0; line-height: 150%; margin-bottom: 15px;}
+section.content ol{list-style-type: decimal; margin-left: 40px;}
+section.content ol, li{font-size: 16px; color: #a0a0a0;}
+section.content li{margin-bottom: 5px;}
+
+section.bigbox{background: #fff; margin: 0px 0px 20px 0px; padding: 20px;}
+section.bigbox article{margin-bottom: 20px;}
+section.bigbox img{border: 0px;}
+section.bigbox .impr{width: 154px; height: 65px;}
+section.bigbox .showad{max-width: 468px;}
+
+aside.sidebar{width: 300px;}
+aside.sidebar h3{margin: 0px 0px 25px 0px;}
+aside.sidebar img{margin-bottom: 20px;}
+
+footer.footer{color: #666; margin: 20px 0px 30px 0px; text-align: center;}
+footer .logo{background-image: url('../img/logo/logo-footer.png'); width: 184px; height: 25px;}
+footer a{margin-left: 10px; color: #666; text-transform: none;}

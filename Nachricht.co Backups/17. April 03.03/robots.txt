@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /new.html
+Disallow: /redirect.php
+Disallow: /style.css
+Disallow: /write.html
+Disallow: /read.html
+Disallow: /contents
+Disallow: /img
+Disallow: /include
+Disallow: /exp
