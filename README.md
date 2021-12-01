@@ -1,4 +1,4 @@
-# Nachricht.co Backups
+# Nachricht.co
 Previous versions of https://nachricht.co
 
 Note that this is outdated code. I've started this little project in 2014 and learned programming since then.
